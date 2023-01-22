@@ -9,7 +9,7 @@ const contentStyle = {
 
 const Document = ({ title, content }) => {
     //Activity state of the button
-    const [disable, setDisable] = useState(false);
+    const [disable, setDisable] = useState(true);
 
   const handleScroll = (e) => {
       const scrollHeight = e.target.scrollHeight;
